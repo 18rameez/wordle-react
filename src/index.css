@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  margin-top: 100px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  gap: 5px;
+
+}
+
+.tile {
+  display: grid;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.correct{
+  background-color: lightgreen;
+}
+
+.close {
+  background-color: lightyellow;
+}
+
+.incorrect {
+  background-color: lightgray;
+}
